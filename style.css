@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Palatino Linotype";
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url(pictureThree.jpg);
+    background-size: cover;
+    min-width: 734px;
+}
+
+section { 
+    width: 25%;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 367px;
+}
+
+#current-weather-detaills-myCity {
+    background: rgba(171, 185, 177, 0.719);
+    border: 2px solid rgb(68, 92, 79);
+}
+
+#current-weather-detaills-London {
+    background: rgba(177, 171, 185, 0.719);
+    border: 2px solid rgb(73, 61, 90);
+}
+
+#info-summary {
+    display: flex;
+}
+
+#block-allInfo {
+    width: 55%;
+    margin: 20px 0 45px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#myGeolocation, #London {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 36px;
+}
+
+button {
+    width: 50%;
+    min-width: 220.13px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+#button-myCity {
+    background:  rgb(68, 92, 79);
+    border-radius: 8px;
+    border: rgb(68, 92, 79);
+}
+
+#button-myCity:hover {
+    background:  rgb(5, 53, 27);
+    border-radius: 8px;
+    border: 3px solid rgb(197, 212, 193);
+}
+
+
+#button-London {
+    background:  rgb(73, 61, 90);
+    border-radius: 8px;
+    border: rgb(73, 61, 90);
+}
+
+#button-London:hover {
+    background:  rgb(31, 5, 53);
+    border-radius: 8px;
+    border: 3px solid rgb(197, 212, 193);
+}

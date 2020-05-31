@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <main id="current-weather-detaills">
+
+        <section id="current-weather-detaills-myCity">
+            <h1 id="myGeolocation">Your geolocation:</h1>
+            <div id="info-summary">
+                <p>Weather summary:</p>
+                <p id="weather-myCity"></p>
+            </div>
+            <div id="block-allInfo">
+                <ul>
+                    <li id="current-humidity-myCity">Humidity:</li>
+                    <li id="current-pressure-myCity">Pressure:</li>
+                    <li id="current-temperature-myCity">Temperature:</li>
+                    <li id="current-wind-speed-myCity">Wind speed:</li>
+                </ul>
+            </div>
+            <button id="button-myCity" onclick="getWeather()">Get current weather</button>
+        </section>
+
+
+
+        <section id="current-weather-detaills-London">
+            <h1 id='London'>London</h1>
+            <div id="info-summary">
+                <p>Weather summary:</p>
+                <p id="weather-London"></p>
+            </div>
+            <div id="block-allInfo">
+                <ul>
+                    <li id="current-humidity-London">Humidity:</li>
+                    <li id="current-pressure-London">Pressure:</li>
+                    <li id="current-temperature-London">Temperature:</li>
+                    <li id="current-wind-speed-London">Wind speed:</li>
+                </ul>
+            </div>
+            <button id="button-London">Get current weather</button>
+        </section>
+        
+    </main>
+    
+    <script src="myCity.js"></script>
+    <script src="London.js"></script>
+    
+</body>
+</html>
